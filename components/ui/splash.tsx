@@ -8,7 +8,7 @@ export default function Splash() {
   const [show, setShow] = useState(true);
 
   useEffect(() => {
-    const t = setTimeout(() => setShow(false), 2500);
+    const t = setTimeout(() => setShow(false), 4000);
     return () => clearTimeout(t);
   }, []);
 
